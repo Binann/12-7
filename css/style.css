@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    font-size: 3rem;       
+}
+.content{
+    margin: 3rem 10rem;
+    display: flex;
+       
+}
+.content_img, .about {
+    display: block;
+}
+.content_img{
+    width: 100%;
+     ;
+}
+.content_img img{
+    width: 100%;
+}
+.content_img .slider img{
+       
+    width: 32.8%;
+    /* display: inline-block; */
+    padding-top: 7rem;
+    
+}
+.slider{
+    position: relative;
+    display: block;
+}
+.slider .icon{
+    position: absolute;
+    top: 63% ;
+    font-size: 3rem; 
+    left: 3rem; 
+    color: rgb(49, 48, 48);
+    display: flex;
+}
+.icon2{
+    position: absolute;
+    left: 45rem;
+}
+
+.about{
+margin-left: 3rem;
+}
+.about h1{
+    padding-bottom: 1rem ;
+}
+.star{
+    display: flex;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+.star p{
+    padding-left: 1rem;
+}
+.price{
+    display: flex;
+    font-size: 2rem;
+}
+.discount{
+    font-size: 1.5rem;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 1.5rem;
+    color: rgb(110, 106, 106);
+}
+.about .text{
+   width:  100%;
+   font-size: 2rem;  
+   color: rgb(110, 106, 106);
+   padding: 2rem 0;
+}
+.choose{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.size li{
+    display: inline-block;
+    position: relative;
+}
+.oversize li{
+    display: block;
+}
+.size p{
+    font-size: 2rem;
+}
+.size button {
+    margin-top:0.7rem;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+    padding-left: 1rem;
+    padding-right: 15rem;
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(43, 41, 41); 
+ 
+}
+.down{
+    position: absolute;
+    right: 1rem;
+}
+.size a{
+    text-decoration: none; 
+}
+.size button:hover{
+    background-color: aqua;
+}
+.size button:hover .oversize{
+    display: block;
+}
+.choose_size{
+    position: relative;
+    list-style: none;
+     
+}
+.oversize  {
+    position: absolute;
+    top: 0;
+    list-style: none;
+    font-size: 1.5rem;   
+}
+
+.quantity button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 14rem;
+    padding: 0.5rem;  
+    
+}
+.quantity > p { 
+    font-size: 2rem ;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.quantity .sign {
+    width: 2rem;
+    height: auto;
+    color: white;
+    background-color:black;
+    border: 0.15rem solid black;
+    position: absolute; 
+    padding: 0.6rem ;
+}
+.number{
+    font-size: 2rem;
+}
+#number1{
+    left:0; 
+    font-size: 2rem;  
+}
+#number2{
+    right: 0;
+    font-size: 2rem;
+}
+.add{
+    font-size: 2rem;
+    width: 20rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-top: 3rem;
+}
+.with{
+    list-style: none ;
+    display: flex;
+    font-size: 2rem;
+}
+.with li {
+    width: 14rem; 
+    padding-bottom: 0.5rem;  
+    display: block;
+}
+.line{
+    border-bottom: 0.3rem solid #ccc;
+}
+.second_text{
+    font-size: 2rem;
+    color: rgb(110, 106, 106);
+    padding: 3rem 2rem;
+}
+.second_about{
+    margin: 5rem 10rem;
+}
+.end{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.end span{
+    color: red;
+}
+
